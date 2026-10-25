@@ -1,0 +1,20 @@
+name: "The Registry"
+author: "diX"
+category: Web Exploitation
+description: |-
+  "Yo, di sini ada lampu! Aslab lagi butuh asisten baru, daftar buruannnn. 
+  BTW, di web pendaftarannya ada 'Golden Ticket' biar lu langsung auto-pass 
+  jadi aslab tanpa tes, tapi ya lu harussss usaha dikit buat nemuinnya. obok2 kink!"
+value: 500 
+type: standard         
+flags:
+  - flag: "CSC{selamatt_kamu_!ditolak_jadi_aslab}"
+    type: static
+tags:
+  - Web Exploitation
+  - Medium
+
+state: hidden
+
+files:
+  - dist/source.zip
